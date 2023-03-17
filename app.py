@@ -5,8 +5,8 @@ import seaborn as sns
 
 st.set_page_config(layout="wide")
 
-st.sidebar.title('WABRA')
-st.sidebar.header('Chat Analyzer')
+st.sidebar.title('Chat Analyzer')
+st.sidebar.header('Sentimental and Analytical Analysis')
 uploaded_file=st.sidebar.file_uploader('Choose a File')
 if uploaded_file is not None:
     bytes_data=uploaded_file.getvalue()
